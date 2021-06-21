@@ -1,0 +1,162 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="STOCK.master.cs" Inherits="PortFolio.STOCK" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Portfolio</title>
+     <meta charset="utf-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="Content/bootstrap-theme.css" rel="stylesheet" />
+    <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/Site.css" rel="stylesheet" />
+    <script src="Scripts/bootstrap.js"></script>
+    <script src="Scripts/WebForms/Focus.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="w3-container">
+  <div class="w3-bar w3-light-grey">
+    <a href="Home.aspx" class="w3-bar-item w3-button"><i class="fa fa-home"></i> HOME</a>
+    <a href="Portfolio.aspx" class="w3-bar-item w3-button"><i class="fa fa-product-hunt"></i> PORTFOLIO</a>
+    <div class="w3-dropdown-hover">
+      <button class="w3-button">FUTURES</button>
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">Future Dash Boards</a>
+        <a href="#" class="w3-bar-item w3-button">Futer Open Intrests</a>
+        <a href="#" class="w3-bar-item w3-button">Future Intra-Day</a>
+        <a href="#" class="w3-bar-item w3-button">Future Build Up</a>
+        <a href="#" class="w3-bar-item w3-button">Heat Map</a>
+        <a href="#" class="w3-bar-item w3-button">Moving Averages</a>
+        <a href="#" class="w3-bar-item w3-button">MWPL</a>
+      </div>
+    </div>
+    <div class="w3-dropdown-hover">
+        <button class="w3-button">OPTIONS</button>
+         <div class="w3-dropdown-content w3-bar-block w3-card-4">
+              <a href="#" class="w3-bar-item w3-button"><i class="fa fa-tes"></i>optionsBackTesting</a>
+              <a href="#" class="w3-bar-item w3-button">Options Simulator</a>
+              <a href="#" class="w3-bar-item w3-button">Options Algorithm</a>
+              <a href="#" class="w3-bar-item w3-button">Options Dashboard</a>
+              <a href="#" class="w3-bar-item w3-button">IV Charts</a>
+              <a href="#" class="w3-bar-item w3-button">Stratergy Builder</a>
+              <a href="#" class="w3-bar-item w3-button">Volatality Skew</a>
+              <a href="#" class="w3-bar-item w3-button">Results Calender</a>
+              <a href="#" class="w3-bar-item w3-button">Historic Results</a>
+         </div>
+    </div>
+       <div class="w3-dropdown-hover">
+                <button class="w3-button">OPEN INTREST</button>
+                   <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                         <a href="#" class="w3-bar-item w3-button">Open Intrests</a>
+                         <a href="#" class="w3-bar-item w3-button">Total Open Intrests</a>
+                         <a href="#" class="w3-bar-item w3-button">Open Intrests Charts</a>
+                         <a href="#" class="w3-bar-item w3-button">PCR</a>
+                         <a href="#" class="w3-bar-item w3-button">Straddles</a>
+                         <a href="#" class="w3-bar-item w3-button">Option Chain</a>
+                         <a href="#" class="w3-bar-item w3-button">Option Activity</a>
+                 </div>
+           </div>
+           <div class="w3-dropdown-hover">
+                <button class="w3-button">FII/DII</button>
+                   <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                      <a href="#" class="w3-bar-item w3-button">FII/DII Cash Market</a>
+                      <a href="#" class="w3-bar-item w3-button">FII/DII Derivatives</a>
+                 </div>
+           </div>
+          <div class="w3-dropdown-hover">
+                <button class="w3-button">EDUCATION</button>
+                   <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                      <a href="#" class="w3-bar-item w3-button"><i class="glyphicon glyphicon-question-sign"></i> How To use</a>
+                      <a href="#" class="w3-bar-item w3-button"><i class="fa fa-youtube"></i> Webrinars</a>
+                      <a href="#" class="w3-bar-item w3-button"><i class="fa fa-connectdevelop"></i> Blog</a>
+                 </div>
+           </div>
+           <div class="w3-dropdown-hover">
+                <button class="w3-button">ACCOUNT</button>
+                   <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                     <a href="#" class="w3-bar-item w3-button"><i class="fa fa-user-circle-o"></i> Account</a>
+                     <a href="#" class="w3-bar-item w3-button"><i class="fa fa-dollar"></i> Pricing</a>
+                 </div>
+           </div>
+         <a href="#" class="w3-bar-item w3-button"><i class="fa fa-sign-out"></i></a>
+      </div>
+</div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
