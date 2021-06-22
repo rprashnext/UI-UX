@@ -122,82 +122,84 @@ select {
         }
     </style>
 </head>
-<body>
+<body style="background-color:white">
     <form id="form1" runat="server">
-        <div class="w3-container" style="margin-left:-1%;margin-top:-3%;width:300%;background-color:black;color:white">
-  <div class="w3-bar w3-black">
-     <a href="#" class="w3-bar-item w3-button">Opstra Options Strategy Builder</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="Home.aspx" class="w3-bar-item w3-button"><i class="fa fa-home"></i> HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="Portfolio.aspx" class="w3-bar-item w3-button"><i class="fa fa-product-hunt"></i> PORTFOLIO</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="w3-container w3-block" style="margin-left:-1%;margin-top:-3%;width:300%">
+  <div class="w3-bar w3-cyan"  style="background-color:darkcyan"> 
+     <a href="#" class="w3-bar-item w3-button" style="font-size:x-large;color:white;margin-top:10px">Opstra Options Strategy Builder</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="Home.aspx" class="w3-bar-item w3-button w3-xlarge" style="font-size:x-large;color:white;margin-top:10px"><span class="fa fa-home"></span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="Portfolio.aspx" class="w3-bar-item w3-button" style="font-size:x-large;color:white;margin-top:10px"><span class="fa fa-newspaper-o"></span> PORTFOLIO </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <div class="w3-dropdown-hover">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <button class="w3-button">FUTURES</button>
+      <button class="w3-button" style="font-size:x-large;color:white;margin-top:10px">FUTURES <span class="fa fa-caret-down"></span></button>
       <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="#" class="w3-bar-item w3-button w3-gray">Future Dash Boards</a>
-        <a href="#" class="w3-bar-item w3-button w3-gray">Futer Open Intrests</a>
-        <a href="#" class="w3-bar-item w3-button w3-gray">Future Intra-Day</a>
-        <a href="#" class="w3-bar-item w3-button w3-gray">Future Build Up</a>
-        <a href="#" class="w3-bar-item w3-button w3-gray">Heat Map</a>
-        <a href="#" class="w3-bar-item w3-button w3-gray">Moving Averages</a>
-        <a href="#" class="w3-bar-item w3-button w3-gray">MWPL</a>
+        <a href="#" class="w3-bar-item w3-button w3-white" style="font-size:x-large">Future Dash Boards</a>
+        <a href="#" class="w3-bar-item w3-button w3-white" style="font-size:x-large">Futer Open Intrests</a>
+        <a href="#" class="w3-bar-item w3-button w3-white" style="font-size:x-large">Future Intra-Day</a>
+        <a href="#" class="w3-bar-item w3-button w3-white" style="font-size:x-large">Future Build Up</a>
+        <a href="#" class="w3-bar-item w3-button w3-white" style="font-size:x-large">Heat Map</a>
+        <a href="#" class="w3-bar-item w3-button w3-white" style="font-size:x-large">Moving Averages</a>
+        <a href="#" class="w3-bar-item w3-button w3-white" style="font-size:x-large">MWPL</a>
       </div>
     </div>
     <div class="w3-dropdown-hover">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <button class="w3-button">OPTIONS</button>
+        <button class="w3-button" style="font-size:x-large;color:white;margin-top:10px">OPTIONS <span class="fa fa-caret-down"></span></button>
          <div class="w3-dropdown-content w3-bar-block w3-card-4">
-              <a href="#" class="w3-bar-item w3-button w3-gray"><i class="fa fa-tes"></i>optionsBackTesting</a>
-              <a href="#" class="w3-bar-item w3-button w3-gray">Options Simulator</a>
-              <a href="#" class="w3-bar-item w3-button w3-gray">Options Algorithm</a>
-              <a href="#" class="w3-bar-item w3-button w3-gray">Options Dashboard</a>
-              <a href="#" class="w3-bar-item w3-button w3-gray">IV Charts</a>
-              <a href="#" class="w3-bar-item w3-button w3-gray">Stratergy Builder</a>
-              <a href="#" class="w3-bar-item w3-button w3-gray">Volatality Skew</a>
-              <a href="#" class="w3-bar-item w3-button w3-gray">Results Calender</a>
-              <a href="#" class="w3-bar-item w3-button w3-gray">Historic Results</a>
+              <a href="#" class="w3-bar-item w3-button w3-white" style="font-size:x-large"><i class="fa fa-tes"></i>optionsBackTesting</a>
+              <a href="#" class="w3-bar-item w3-button w3-white" style="font-size:x-large">Options Simulator</a>
+              <a href="#" class="w3-bar-item w3-button w3-white" style="font-size:x-large">Options Algorithm</a>
+              <a href="#" class="w3-bar-item w3-button w3-white" style="font-size:x-large">Options Dashboard</a>
+              <a href="#" class="w3-bar-item w3-button w3-white" style="font-size:x-large">IV Charts</a>
+              <a href="#" class="w3-bar-item w3-button w3-white" style="font-size:x-large">Stratergy Builder</a>
+              <a href="#" class="w3-bar-item w3-button w3-white" style="font-size:x-large">Volatality Skew</a>
+              <a href="#" class="w3-bar-item w3-button w3-white" style="font-size:x-large">Results Calender</a>
+              <a href="#" class="w3-bar-item w3-button w3-white" style="font-size:x-large">Historic Results</a>
          </div>
     </div>
        <div class="w3-dropdown-hover">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <button class="w3-button">OPEN INTREST</button>
+   <button class="w3-button" style="font-size:x-large;color:white;margin-top:10px">OPEN INTREST <span class="fa fa-caret-down"></span></button>
                    <div class="w3-dropdown-content w3-bar-block w3-card-4">
-                         <a href="#" class="w3-bar-item w3-button w3-gray">Open Intrests</a>
-                         <a href="#" class="w3-bar-item w3-button w3-gray">Total Open Intrests</a>
-                         <a href="#" class="w3-bar-item w3-button w3-gray">Open Intrests Charts</a>
-                         <a href="#" class="w3-bar-item w3-button w3-gray">PCR</a>
-                         <a href="#" class="w3-bar-item w3-button w3-gray">Straddles</a>
-                         <a href="#" class="w3-bar-item w3-button w3-gray">Option Chain</a>
-                         <a href="#" class="w3-bar-item w3-button w3-gray">Option Activity</a>
+                         <a href="#" class="w3-bar-item w3-button w3-white" style="font-size:x-large">Open Intrests</a>
+                         <a href="#" class="w3-bar-item w3-button w3-white" style="font-size:x-large">Total Open Intrests</a>
+                         <a href="#" class="w3-bar-item w3-button w3-white" style="font-size:x-large">Open Intrests Charts</a>
+                         <a href="#" class="w3-bar-item w3-button w3-white" style="font-size:x-large">PCR</a>
+                         <a href="#" class="w3-bar-item w3-button w3-white" style="font-size:x-large">Straddles</a>
+                         <a href="#" class="w3-bar-item w3-button w3-white" style="font-size:x-large">Option Chain</a>
+                         <a href="#" class="w3-bar-item w3-button w3-white" style="font-size:x-large">Option Activity</a>
                  </div>
            </div>
            <div class="w3-dropdown-hover">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <button class="w3-button">FII/DII</button>
+       <button class="w3-button" style="font-size:x-large;color:white;margin-top:10px">FII/DII <span class="fa fa-caret-down"></span></button>
                    <div class="w3-dropdown-content w3-bar-block w3-card-4">
-                      <a href="#" class="w3-bar-item w3-button w3-gray">FII/DII Cash Market</a>
-                      <a href="#" class="w3-bar-item w3-button w3-gray">FII/DII Derivatives</a>
+                      <a href="#" class="w3-bar-item w3-button w3-white" style="font-size:x-large">FII/DII Cash Market</a>
+                      <a href="#" class="w3-bar-item w3-button w3-white" style="font-size:x-large">FII/DII Derivatives</a>
                  </div>
            </div>
           <div class="w3-dropdown-hover">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <button class="w3-button">EDUCATION</button>
+     <button class="w3-button" style="font-size:x-large;color:white;margin-top:10px">EDUCATION <span class="fa fa-caret-down"></span></button>
                    <div class="w3-dropdown-content w3-bar-block w3-card-4">
-                      <a href="#" class="w3-bar-item w3-button w3-gray"><i class="glyphicon glyphicon-question-sign"></i> How To use</a>
-                      <a href="#" class="w3-bar-item w3-button w3-gray"><i class="fa fa-youtube"></i> Webrinars</a>
-                      <a href="#" class="w3-bar-item w3-button w3-gray"><i class="fa fa-connectdevelop"></i> Blog</a>
+<a href="#" class="w3-bar-item w3-button w3-white" style="font-size:x-large"><span class="glyphicon glyphicon-question-sign"></span> How To use</a>
+   <a href="#" class="w3-bar-item w3-button w3-white" style="font-size:x-large"><span class="fa fa-youtube"></span> Webrinars</a>
+    <a href="#" class="w3-bar-item w3-button w3-white" style="font-size:x-large"><span class="fa fa-connectdevelop"></span> Blog</a>
                  </div>
            </div>
            <div class="w3-dropdown-hover">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <button class="w3-button">ACCOUNT</button>
+  <button class="w3-button" style="font-size:x-large;color:white;margin-top:10px"><span class="fa fa-user-circle-o"></span> <span class="fa fa-caret-down"></span></button>
                    <div class="w3-dropdown-content w3-bar-block w3-card-4">
-                     <a href="#" class="w3-bar-item w3-button w3-gray"><i class="fa fa-user-circle-o"></i> Account</a>
-                     <a href="#" class="w3-bar-item w3-button w3-gray"><i class="fa fa-dollar"></i> Pricing</a>
+             <a href="#" class="w3-bar-item w3-button w3-white" style="font-size:x-large"><span class="fa fa-user-circle-o"></span> Account</a>
+                     <a href="#" class="w3-bar-item w3-button w3-white" style="font-size:x-large"><i class="fa fa-dollar"></i> Pricing</a>
                  </div>
            </div>
-         <a href="#" class="w3-bar-item w3-button"><i class="fa fa-sign-out"></i></a>
+         <a href="#" class="w3-bar-item w3-button" style="font-size:x-large;color:white;margin-top:10px"><span class="fa fa-sign-out"></span></a>
       </div>
 </div>
  <br />
    <br />
      <br />
+        <section class="container-fluid">
         <section class="col-lg-12">
-           <select class="form-control" style="background-color:gainsboro" id="sel" onchange="show(this)">
+           <select class="form-control" style="background-color:gainsboro;margin-left:1%" id="sel" onchange="show(this)">
         <option value="">-- Select Index/Stock --</option>
+        <option value="NIFTY">NIFTY</option>
     </select>
     <p id="msg"></p>
             <script type="text/javascript">
@@ -208,50 +210,50 @@ select {
        <section class="col-lg-12">
         <div data-v-4d58e75c="" class="flex body-2 cyan--text sm12 md9 mt-3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                <span data-v-4d58e75c="" tabindex="0" class="v-chip v-chip--label theme--light teal lighten-4">
-                   <span class="v-chip__content" style="background-color:powderblue">
-                    Spot Price: 15683.35
+                   <span class="v-chip__content" style="background-color:lightsteelblue;font-size:x-large">
+                    <strong>Spot Price: 15683.35</strong>  
                     </span>
                </span>
 <span data-v-4d58e75c="" tabindex="0" class="v-chip v-chip--label theme--light orange lighten-4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                   <span class="v-chip__content" style="background-color:lightsalmon">
-                    Futures Price: 15727.5
+                   <span class="v-chip__content" style="background-color:lightsalmon;font-size:x-large">
+                    <strong>Futures Price: 15727.5</strong>
                     </span>
                </span>
                <span data-v-4d58e75c="" tabindex="0" class="v-chip v-chip--label theme--light light-green lighten-4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                   <span class="v-chip__content" style="background-color:lightgreen">
-                    Lot Size: 75
+                   <span class="v-chip__content" style="background-color:sandybrown;font-size:x-large">
+                    <strong>Lot Size: 75</strong>
                     </span>
                </span>
                <span data-v-4d58e75c="" tabindex="0" class="v-chip v-chip--label theme--light lime lighten-4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                   <span class="v-chip__content" style="background-color:limegreen">
-                    IV: 17.26
+                   <span class="v-chip__content"  style="background-color:khaki;font-size:x-large">
+                   <strong>IV: 17.26</strong>
                     </span>
                </span>
                <span data-v-4d58e75c="" tabindex="0" class="v-chip v-chip--label theme--light purple lighten-4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                   <span class="v-chip__content" style="background-color:mediumpurple">
-                    IV Percentile: 9.2
+                   <span class="v-chip__content" style="background-color:mediumpurple;font-size:x-large">
+                    <strong>IV Percentile: 9.2</strong>
                     </span>
                </span>
                <span data-v-4d58e75c="" tabindex="0" class="v-chip v-chip--label theme--light blue-grey lighten-4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                   <span class="v-chip__content" style="background-color:lightblue">
+                   <span class="v-chip__content" style="background-color:lightblue;font-size:x-large">
                        <a data-v-4d58e75c="" href="/ivchart/NIFTY" class="black--text">
-                        NIFTY IV Chart
+                        <strong>NIFTY IV Chart</strong>
                         </a>
                    </span>
                </span>
            </div>
        </section>
-       <section class="col-lg-12" style="margin-left:62%;margin-top:-4%">
+       <section class="col-lg-12" style="margin-left:82%;margin-top:-3%">
            <asp:Label ID="Label1" runat="server" Text="DATE:"></asp:Label>
            <asp:TextBox ID="TextDate" CssClass="form-control" style="background-color:gainsboro" TextMode="Date" runat="server"></asp:TextBox>
        </section>
     <section class="col-lg-12" style="margin-left:12.8%">
-    <asp:DropDownList ID="DropDownList1" CssClass="form-control"  style="margin-left:50%;background-color:gainsboro" runat="server">
+    <asp:DropDownList ID="DropDownList1" CssClass="form-control"  style="margin-left:-12%;background-color:gainsboro" runat="server">
               <asp:ListItem>Select-Segment</asp:ListItem>
               <asp:ListItem>Features</asp:ListItem>
               <asp:ListItem>Options</asp:ListItem>
           </asp:DropDownList>
-    <asp:DropDownList ID="DropDownList2" style="margin-top:-1.7%;margin-left:-13%;background-color:gainsboro" CssClass="form-control" runat="server">
+    <asp:DropDownList ID="DropDownList2" style="margin-top:-1.7%;margin-left:6%;background-color:gainsboro" CssClass="form-control" runat="server">
               <asp:ListItem>--Select-Expery--</asp:ListItem>
               <asp:ListItem>24/06/2021</asp:ListItem>
               <asp:ListItem>02/07/2021</asp:ListItem>
@@ -264,8 +266,8 @@ select {
           </asp:DropDownList>
     </section>
     <section class="col-lg-12" style="margin-top:10%">
-        <asp:RadioButton ID="RadioButton1" Text="BUY" runat="server"  />
-        <asp:RadioButton ID="RadioButton2" Text="SELL" runat="server" />
+    <asp:RadioButton ID="RadioButton1" Text="BUY" style="font-size:x-large"  runat="server"  />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:RadioButton ID="RadioButton2" Text="SELL" style="font-size:x-large" runat="server" />
     </section>
     <section class="col-lg-12" style="margin-left:25%;margin-top:-1.6%">
         <asp:Label ID="Label2" runat="server" Text="Lot Qty:"></asp:Label>
@@ -273,20 +275,17 @@ select {
         <input type="number" style="background-color:gainsboro" role="textbox"/>
        <button data-v-607416cd="" type="button" class="btn btn-info"><span class="fa fa-plus"></span></button>
     </section>
-     <section class="col-lg-12" style="margin-top:-1%;margin-left:65%">
-         <span class="v-chip__content" style="background-color:lightsalmon">
-                    Futures Price: 15780
+     <section class="col-lg-12" style="margin-top:-1.7%;margin-left:65%">
+         <span class="v-chip__content" style="background-color:lightgray;font-size:x-large">
+                    <strong>Futures Price: 15780</strong>
                     </span>
      </section>
     <section class="col-lg-12">
-        <center><button type="button" class="btn btn-info "><a href="ADDPOS.aspx">ADD POSITION <span class="fa fa-arrow-right"></span></a></button></center>
+        <center><button type="button" class="btn btn-info" style="margin-top:-3%;margin-left:82%;font-size:x-large"><a href="ADDPOS.aspx">ADD POSITION <span class="fa fa-arrow-right"></span></a></button></center>
     </section>
-    <section class="col-lg-12">
-        <h1 class="w3-animate-left w3-hover-gray" style="text-align:center;background-color:royalblue;opacity:8;font-family:'Times New Roman';font-size:xx-large;font-weight:bolder;border:solid thick;color:white"><strong>Options Data</strong></h1>
-        <section>
-  <center><button id="togglebutton" type="button" class="show btn btn-info">Option Data
-      <span class="fa fa-arrow-right"></span></button></center>
-         <table id='table'>
+    <section class="col-lg-12" style="margin-top:5%">
+  <center><button id="togglebutton" type="button" class="show btn btn-info" style="font-size:x-large">Option Chain <span class="fa fa-caret-down"></span></button></center>
+         <table id='table' style="display:none">
             <!-- HEADING FORMATION -->
             <tr>
                 <th><strong>Time</strong></th>
@@ -312,16 +311,21 @@ select {
                 <th><strong>ExpiryDate</strong></th>
             </tr>
       <script type="text/javascript">
+          document.getElementById("togglebutton").addEventListener("click", function (button) {
+          if (document.getElementById("table").style.display === "none")
+              document.getElementById("table").style.display = "block";
+           else document.getElementById("table").style.display = "none";
+          });
           $(document).ready(function () {
-              $("table").hide();
-              $(document).on('click', '.show', function () {
+              /*$("table").hide();
+              $(document).on('click', '.show btn btn-info', function () {
                   $("table").show();
-                  $("#togglebutton").removeClass('show').addClass('hide');
+                  $("#togglebutton").removeClass('show btn btn-info').addClass('hide btn btn-info');
               });
-              $(document).on('click', '.hide', function () {
+              $(document).on('click', '.hide btn btn-info', function () {
                   $("table").hide();
-                  $("#togglebutton").removeClass('hide').addClass('show');
-              });
+                  $("#togglebutton").removeClass('hide btn btn-info').addClass('show btn btn-info');
+              }); */
               // FETCHING DATA FROM JSON FILE
               $.getJSON("https://shreya-sri.github.io/nifty_data.json",
                   function (data) {
@@ -380,6 +384,7 @@ select {
       </script>
     </table>
     </section>
+</section>
     </form>
 </body>
 </html>
